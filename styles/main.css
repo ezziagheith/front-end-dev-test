@@ -13,3 +13,21 @@
     bottom: 700px;
     left: 40px;
 }
+
+.greeting{
+    position: relative;
+    bottom: 570px;
+    left: 510px;
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Londrina Outline', cursive;
+}
+
+.greeting2{
+    position: relative;
+    bottom: 590px;
+    left: 510px;
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+}
