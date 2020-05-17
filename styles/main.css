@@ -49,13 +49,33 @@
 }
 
 .img1{
+    position: absolute;
     max-width: 100%;
     width: 50%;
-    height: 50%;
-    position: absolute;
+    height: 400px;
     z-index: 1;
     margin: -15px;
     padding: -10px;
     left: 720px;
 }
 
+.title1{
+    color: #623676;
+    position: absolute;
+    left: 200px;
+    bottom: 60px;
+}
+
+.para1{
+    word-break: break-all;
+    position: absolute;
+    top: 670px;
+    left: 200px;
+}
+
+.link1{
+    color: #623676;
+    position: absolute;
+    top: 850px;
+    left: 200px;
+}
