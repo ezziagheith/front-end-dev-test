@@ -5,6 +5,16 @@
     height: auto;
 }
 
+.logo{
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    height: auto;
+    z-index: 1;
+    top: 30px;
+    left: 30px;
+}
+
 .greeting{
     font-size: 7vw;
     color: #fff;
