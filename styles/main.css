@@ -299,3 +299,21 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+.title6{
+    position: absolute;
+    top: 2350px;
+    left: 250px;
+}
+
+.title7{
+    position: absolute;
+    top: 2400px;
+    left: 250px;
+}
+
+.five-stars{
+    position: absolute;
+    top: 2450px;
+    left: 250px;
+}
