@@ -116,3 +116,143 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+.title3{
+    position: absolute;
+    right: 930px;
+    top: 1500px;
+}
+
+.title4{
+    position: absolute;
+    right: 880px;
+    top: 1550px;
+}
+
+.infoSection3{
+    position: absolute;
+    max-width: 100%;
+    width: 50%;
+    height: 400px;
+    z-index: 1;
+    top: 1418px;
+    left: 720px;
+    background-color: #fafafa;
+}
+
+.para2{
+    word-break: break-all;
+    position: absolute;
+    top: 1625px;
+    left: 245px;
+}
+
+.link2{
+    position: absolute;
+    top: 1750px;
+    left: 245px;
+    color: #623676;
+}
+
+.circle{
+    z-index: 0;
+    position: relative;
+    left: 100px;
+    top: 40px;
+    height: 120px;
+    width: 120px;
+    background-color: #623676;
+    border-radius: 50%;
+    border-color: #623676;
+    display: inline-block;
+}
+.clipboard{
+    position: absolute;
+    z-index: 2;
+    left: 125px;
+    top: 30px;
+}
+
+.text1{
+    position: absolute;
+    top: 170px;
+    left: 120px;
+}
+
+.circle2{
+    z-index: 0;
+    position: relative;
+    left: 330px;
+    top: 40px;
+    height: 120px;
+    width: 120px;
+    background-color: #623676;
+    border-radius: 50%;
+    border-color: #623676;
+    display: inline-block;
+}
+
+.home-hygiene{
+    position: absolute;
+    z-index: 2;
+    left: 463px;
+    top: 1px;
+}
+
+.text2{
+    position: absolute;
+    top: 170px;
+    left: 430px;
+}
+
+.circle3{
+    z-index: 0;
+    position: relative;
+    right: 150px;;
+    top: 230px;
+    height: 120px;
+    width: 120px;
+    background-color: #623676;
+    border-radius: 50%;
+    border-color: #623676;
+    display: inline-block;
+}
+
+.home-lab{
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+    right: 510px;
+}
+
+.text3{
+    position: absolute;
+    top: 360px;
+    left: 80px;
+}
+
+.circle4{
+    z-index: 0;
+    position: relative;
+    left: 80px;
+    top: 230px;
+    height: 120px;
+    width: 120px;
+    background-color: #623676;
+    border-radius: 50%;
+    border-color: #623676;
+    display: inline-block;
+}
+
+.home-retention{
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 480px;
+}
+
+.text4{
+    position: absolute;
+    top: 360px;
+    left: 480px;
+}
