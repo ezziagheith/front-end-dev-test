@@ -19,12 +19,51 @@
     font-size: 7vw;
     color: #fff;
     font-family: 'Londrina Outline', cursive;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .greeting2{
     font-size: 4vw;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
 }
 
 .btn-outline-secondary {
@@ -165,12 +204,22 @@
     border-radius: 50%;
     border-color: #623676;
     display: inline-block;
+    animation: backInLeft;
+    animation-duration: 2s;
 }
+
 .clipboard{
     position: absolute;
     z-index: 2;
     left: 125px;
     top: 30px;
+    animation: backInLeft;
+    animation-duration: 2s;
+}
+
+.clipboard:hover{
+    animation: bounce;
+    animation-duration: 2s;
 }
 
 .text1{
@@ -190,6 +239,8 @@
     border-radius: 50%;
     border-color: #623676;
     display: inline-block;
+    animation: backInRight;
+    animation-duration: 2s;
 }
 
 .home-hygiene{
@@ -197,6 +248,13 @@
     z-index: 2;
     left: 463px;
     top: 1px;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+
+.home-hygiene:hover{
+    animation: bounce;
+    animation-duration: 2s;
 }
 
 .text2{
@@ -216,6 +274,8 @@
     border-radius: 50%;
     border-color: #623676;
     display: inline-block;
+    animation: backInLeft;
+    animation-duration: 2s;
 }
 
 .home-lab{
@@ -223,6 +283,13 @@
     z-index: 2;
     top: 190px;
     right: 510px;
+    animation: backInLeft;
+    animation-duration: 2s;
+}
+
+.home-lab:hover{
+    animation: bounce;
+    animation-duration: 2s;
 }
 
 .text3{
@@ -242,6 +309,8 @@
     border-radius: 50%;
     border-color: #623676;
     display: inline-block;
+    animation: backInRight;
+    animation-duration: 2s;
 }
 
 .home-retention{
@@ -249,6 +318,13 @@
     z-index: 2;
     top: 230px;
     left: 480px;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+
+.home-retention:hover{
+    animation: bounce;
+    animation-duration: 2s;
 }
 
 .text4{
@@ -316,4 +392,113 @@
     position: absolute;
     top: 2450px;
     left: 250px;
+}
+
+.carousel1{
+    position: absolute;
+    top: 2350px;
+    left: 800px;
+}
+
+.userNames{
+    position: relative;
+    color: #623676;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #623676;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.userPara{
+    position: relative;
+    bottom: 10px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+    background-color: purple;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    /* bottom: 50px; */
+    left: 0;
+    top: 250px;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-control-next{
+    right: -100px;
+}
+
+.carousel-control-prev{
+    left: -100px;
+}
+
+.footer{
+    position: relative;
+    height: 200px;
+    top: 1180px;
+    background-color: #fafafa;
+}
+
+#instagram{
+    position: absolute;
+    left: 500px;
+    top: 80px;
+}
+
+#facebook{
+    position: absolute;
+    left: 650px;
+    top: 80px;
+}
+
+.follow-text{
+    position: absolute;
+    left: 635px;
+    top: 40px;
+}
+
+.rg-logo{
+    position: absolute;
+    left: 1300px;
+    top: 110px;
 }
